@@ -1,7 +1,16 @@
 .container{
     display: flex;
+    padding: 95px;
 }
 
 .cards{
-    
+    border-radius: 50px;
+    width: 100px;
+    cursor: pointer;
+    margin: 10px;
+    transition: width 0.8s;
+}
+
+.active{
+    width: 1150px;
 }
